@@ -1,0 +1,50 @@
+:host {
+    display: block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: inherit;
+    height: inherit;
+}
+:host(:focus) {
+    outline: none;
+}
+:host[hidden] {
+    display: none;
+}
+:host(:focus) .container {
+    box-shadow: 6px 6px 6px 0 rgba(32,33,36,0.25);
+}
+.container {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.canvas-area {
+    width: 100%;
+    flex: 1 1 auto;
+    position: relative;
+    margin-left: 5px;
+}
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.toolbar {
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+}
+::slotted(.button) {
+    display: inline-block;
+    flex: 0 0 auto;
+    margin: 5px;
+}
