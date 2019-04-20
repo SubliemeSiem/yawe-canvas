@@ -48,7 +48,7 @@ These elements can be styled using css.
 
 The yawe-canvas exposes the following properties:
 | Property                  |                                                                    Description |   Type |         Example |         Default |
-|---------------------------|--------------------------------------------------------------------------------|--------|-----------------|-----------------|
+|---------------------------|--------------------------------------------------------------------------------|-------|-----------------|-----------------|
 | font                      |                                                                       The font | string |         "serif" |         "serif" |
 | fontSize                  |                                                           The size of the font | number |              20 |              20 |
 | lineHeight                |                                                           The height of a line | number |              24 |  1.2 * fontSize |
