@@ -193,14 +193,6 @@ import { Line } from "./line.js";
             privates.shadowRoot.appendChild(privates.template.content.cloneNode(true));
         }
 
-        get test() {
-            return this.hasAttribute('test') ? this.getAttribute('test') : undefined;
-        }
-        
-        set test(value) {
-            this.setAttribute('test', value);
-        }
-
         connectedCallback() {
             const canvas = privates.shadowRoot.querySelector('canvas');
             privates.refresh(canvas);
@@ -307,17 +299,17 @@ import { Line } from "./line.js";
             });
         }
 
-        checkAndSet(property, value, check, error) {
+        checkAndSet(attribute, value, check, error) {
             if (value === undefined) {
-                this.removeAttribute(property)
+                this.removeAttribute(attribute)
             } else if (check === undefined ||
                 (typeof check === "function" && check(value)) ||
                 (typeof check === "boolean" && check)
             ) {
                 if (typeof value === 'string' && value.trim().length === 0) {
-                    this.removeAttribute(property);
+                    this.removeAttribute(attribute);
                 }
-                this.setAttribute(property, value);
+                this.setAttribute(attribute, value);
             } else if (error !== undefined) {
                 throw new Error(error); 
             }

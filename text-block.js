@@ -83,9 +83,9 @@ export class TextBlock {
      */
     constructor(context, font, size, lineheight, styles, colors, text) {
         this._context = context;
-        this._font = font || 'sans-serif';
-        this._size = size || 20;
-        this._lineHeight = lineheight || this._size * 1.2;
+        this._font = font;
+        this._size = size;
+        this._lineHeight = lineheight;
         this._styles = styles || new Map()
                 .set('bold', false)
                 .set('italic', false)
@@ -94,10 +94,10 @@ export class TextBlock {
         this._colors = Object.assign({}, {
             text: '#FFFFFF',
             background: '#763282',
-            selectionBackground: '#3377FF',
-            selectionBackgroundBlurred: '#123456',
+            selectionBackground: '#2156DE',
+            selectionBackgroundBlurred: '#2156DE',
             selectionText: '#FFFFFF',
-            selectionTextBlurred: '#654321'
+            selectionTextBlurred: '#FFFFFF'
         }, colors);
 
         this._text = text || '';
