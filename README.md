@@ -55,8 +55,8 @@ The yawe-canvas exposes the following properties:
 | lineHeight | The height of a line | number | 24 |  1.2 * fontSize |
 | tabIndex | The tab index | number | -1 | 0 |
 | blinkInterval | Interval between cursor blinks | number | 500 | 500 |
-| color | Font color | string | #17200A | "#000000" |
-| backgroundColor | Background color | string | #9F2A8B | #FFFFFF |
+| color | Font color | string | "#17200A" | "#000000" |
+| backgroundColor | Background color | string | "#9F2A8B" | "#FFFFFF" |
 | selectionColors | Font color for selection;<br> Font color for selection when blurred | string | #000000;#121212 | #FFFFFF;#FFFFFF |
 | selectionBackgroundColors | Background color for selection;<br>Background color for selection when blurred | string | #964442;#885567 | #2156DE;#2156DE |
 
@@ -98,3 +98,20 @@ The yawe-canvas exposes the following methods:
 [Return to Table of Contents](#table-of-contents)
 
 ---
+
+## TODO
+
+- [X] Implement Web Component
+- [X] Implement Shadow DOM
+- [X] Implement TextBlock
+- [X] Implement Line
+- [X] Implement rendering of a TextBlock
+- [ ] Implement single char widths cache
+    - [X] Implement FontWidths class
+    - [ ] Inject class into textblock objects
+- [ ] Implement wrapping of words
+- [ ] Implement keyboard Events
+- [ ] Implement styling (bold / italic /underline)
+- [ ] Implement partial repaint
+- [ ] Expose method for HTML result
+- [ ] Expose method for text result
