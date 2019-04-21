@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-- [1. Usage](#1.-usage)
-    - [1.1 Creating the element](#1.1-creating-the-element)
-    - [1.2 Adding Custom Toolbar Elements](#1.2-adding-custom-toolbar-elements)
-- [2. Properties (comming soon)](#2.-properties)
-- [3. Methods](#3.-methods)
+- [1. Usage](#1-usage)
+    - [1.1 Creating the element](#11-creating-the-element)
+    - [1.2 Adding Custom Toolbar Elements](#12-adding-custom-toolbar-elements)
+- [2. Properties](#2-properties)
+- [3. Methods](#3-methods)
 
 ---
 
@@ -111,7 +111,11 @@ The yawe-canvas exposes the following methods:
     - [ ] Inject class into textblock objects
 - [ ] Implement wrapping of words
 - [ ] Implement keyboard Events
-- [ ] Implement styling (bold / italic /underline)
+- [ ] Implement styling 
+    - [ ] Implement bold / italic /underline
+    - [ ] Implement font size / line height
+    - [ ] Implement text alignment
+    - [ ] Implement fonts    
 - [ ] Implement partial repaint
 - [ ] Expose method for HTML result
 - [ ] Expose method for text result
