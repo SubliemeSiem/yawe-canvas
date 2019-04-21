@@ -81,6 +81,7 @@ The yawe-canvas exposes the following methods:
     - `checkAndSet(attribute, value, check)`: assigns `value` to `attribute` if `check` is true. `check` can be a boolean or a function, in which case `check(value)` is evaluated.
     - `checkAndSet(attribute, value, check, error)`: assigns `value` to `attribute` if `check` is true. `check` can be a boolean or a function, in which case `check(value)` is evaluated. If `check` is false a `new Error(error)` is thrown.
     - Examples: 
+    
         ```HTML
         <yawe-canvas id="yawe-canvas"></yawe-canvas>
         <script>
