@@ -47,16 +47,16 @@ These elements can be styled using css.
 ## 2. Properties
 
 The yawe-canvas exposes the following properties:
-| Property                  |                                                                    Description |   Type |         Example |         Default |
-|---------------------------|--------------------------------------------------------------------------------|-------|-----------------|-----------------|
-| font                      |                                                                       The font | string |         "serif" |         "serif" |
-| fontSize                  |                                                           The size of the font | number |              20 |              20 |
-| lineHeight                |                                                           The height of a line | number |              24 |  1.2 * fontSize |
-| tabIndex                  |                                                                  The tab index | number |              -1 |               0 |
-| blinkInterval             |                                                 Interval between cursor blinks | number |             500 |             500 |
-| color                     |                                                                     Font color | string |         #17200A |       "#000000" |
-| backgroundColor           |                                                               Background color | string |         #9F2A8B |         #FFFFFF |
-| selectionColors           | Font color for selection;<br> Font color for selection when blurred            | string | #000000;#121212 | #FFFFFF;#FFFFFF |
+| Property | Description | Type | Example | Default |
+|----------|-------------|------|---------|---------|
+| font | The font | string | "serif" | "serif" |
+| fontSize | The size of the font | number | 20 | 20 |
+| lineHeight | The height of a line | number | 24 |  1.2 * fontSize |
+| tabIndex | The tab index | number | -1 | 0 |
+| blinkInterval | Interval between cursor blinks | number | 500 | 500 |
+| color | Font color | string | #17200A | "#000000" |
+| backgroundColor | Background color | string | #9F2A8B | #FFFFFF |
+| selectionColors | Font color for selection;<br> Font color for selection when blurred | string | #000000;#121212 | #FFFFFF;#FFFFFF |
 | selectionBackgroundColors | Background color for selection;<br>Background color for selection when blurred | string | #964442;#885567 | #2156DE;#2156DE |
 Setting a property to `undefined` will revert it to it's default.
 
