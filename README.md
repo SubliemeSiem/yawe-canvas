@@ -7,6 +7,7 @@
     - [1.2 Adding Custom Toolbar Elements](#12-adding-custom-toolbar-elements)
 - [2. Properties](#2-properties)
 - [3. Methods](#3-methods)
+- [TODO](#TODO)
 
 ---
 
@@ -70,6 +71,7 @@ Setting a property to `undefined` will revert it to it's default.
 ## 3. Methods
 
 The yawe-canvas exposes the following methods:
+
 - `updateCanvas()`: Render either the entire or part of the canvas. Usage:
     - `updateCanvas`: Render the entire canvas
     - `updateCanvas(x, y, width, height)`: Render a part of the canvas from `(x, y)` to `(x + width, y + height)`.
@@ -95,11 +97,14 @@ The yawe-canvas exposes the following methods:
         });
         </script>
         ```
+
 [Return to Table of Contents](#table-of-contents)
 
 ---
 
 ## TODO
+
+TODO list, will be removed on first release.
 
 - [X] Implement Web Component
 - [X] Implement Shadow DOM
@@ -119,3 +124,6 @@ The yawe-canvas exposes the following methods:
 - [ ] Implement partial repaint
 - [ ] Expose method for HTML result
 - [ ] Expose method for text result
+
+[Return to Table of Contents](#table-of-contents)
+
